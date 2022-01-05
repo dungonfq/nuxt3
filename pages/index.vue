@@ -1,6 +1,6 @@
 <template>
     <div>
-        Hello
+        Hello <span class="text-xl text-green-500">How r u?</span>
     </div>
 </template>
 
