@@ -4,7 +4,6 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "jsx": "preserve",
     "moduleResolution": "node",
     "types": [
       "nuxt-windicss",

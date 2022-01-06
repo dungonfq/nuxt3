@@ -14,6 +14,7 @@ const NUMBER_FORMATS = {
 
 const intlify = {
   vueI18n: {
+    locales: ['en', 'fr', 'es'],
     locale: process.env.DEFAULT_LOCALE || 'de',
     fallbackLocale: 'en',
     numberFormats: {
@@ -26,7 +27,6 @@ const intlify = {
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  plugins: ['~/plugins/i18n.ts'],
   buildModules: [
       'nuxt-windicss',
       '@intlify/nuxt3'
