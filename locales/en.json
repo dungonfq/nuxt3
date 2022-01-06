@@ -1,0 +1,398 @@
+{
+    "home": "Homepage",
+    "about": "About us",
+    "common": {
+        "days": "nights",
+        "continue_button": "Continue",
+        "apply_button": "Apply",
+        "address": "Address",
+        "phone": "Phone",
+        "ok_button": "OK",
+        "select_date": "Select date",
+        "email": "Email",
+        "office_hour": "Office hours",
+        "submit": "Submit",
+        "remove": "Remove",
+        "finish": "Book now",
+        "ok": "OK",
+        "yes": "Yes",
+        "loading": "Loading..."
+    },
+    "form": {
+        "customer": {
+            "first_name": "First name",
+            "last_name": "Last name",
+            "title": "Title",
+            "company": "Company",
+            "street": "Street and house number",
+            "postalcode": "Postal code",
+            "city": "City",
+            "country": "Country",
+            "mobile": "Mobile",
+            "landline_phone": "Landline Phone",
+            "birthday": "Date of birth",
+            "placeOfBirth": "Place of birth",
+            "sir": "Mr.",
+            "madam": "Mrs.",
+            "business": "Business",
+            "email": "Email",
+            "taxNumberRequired": "Tax Number is required",
+            "yourPersonalDetails": "Your personal details",
+            "driver": "Driver",
+            "idDetails": "Identity card details",
+            "driversLicenseDetails": "Driver’s license details",
+            "idNumber": "ID number",
+            "idDate": "ID date",
+            "issuingPlace": "Issuing place",
+            "issuingCountry": "Issuing country",
+            "driversLicenseNumber": "Driver’s license number",
+            "driversLicenseClass": "Driver’s license class",
+            "issuingAuthority": "Issuing Authority",
+            "dateOfIssue": "Date of Issue",
+            "submit": "Submit"
+        }
+    },
+    "navbar": {
+        "home_link": "Booking",
+        "vehicle_link": "Campervans",
+        "rate_link": "Rates",
+        "select_lang": "Languages",
+        "select_menu": "Menu",
+        "select_currency": "Currency"
+    },
+    "contact": {
+        "hotline": "Hotline",
+        "phone": "Phone",
+        "email": "E-Mail",
+        "open_hour": "MO-SA 9am-6pm"
+    },
+    "booking": {
+        "expired_session": "Your booking session is about to end. Do you want to extend it?",
+        "available": "Camper Available",
+        "unavailable": "Fully Booked",
+        "step": {
+            "select_vehicle": "Search & select your camper",
+            "select_extra": "Select your extras",
+            "input_details": "Your personal details",
+            "checkout": "Confirm & pay"
+        },
+        "filter": {
+            "label": "Filter",
+            "kitchen": "Kitchen",
+            "seat_5": "Seating for 5 people",
+            "pet_allowed": "Dogs are allowed",
+            "trailer_hitch": "Trailer hitch",
+            "outdoor_shower": "Outdoor shower",
+            "built_in_wc": "With toilet"
+        },
+        "searchResult": {
+            "booking_days": "nights",
+            "total_price": "Total price",
+            "select": "Book now",
+            "show_alternative": "Show Alternatives",
+            "watching_list": "Add To Waiting List",
+            "seePricesPerNight": "See prices per night"
+        },
+        "insurance": {
+            "heading": "Carefree-packages - for a happy roadtrip",
+            "desc": "All bookings with the Basic Carefree Package include fully comprehensive insurance, unlimited kilometers, a 2nd driver and 24/7 breakdown cover throughout Europe. If you would like to reduce your deductible in case of damage and/or you would like to add an additional driver, please select the corresponding package.",
+            "free": "Free"
+        },
+        "extra": {
+            "heading": "Additional equipment that can be booked for your camping holiday",
+            "desc": "Your campervan is equipped with numerous camping articles - free of charge for you. For example with an awning, complete kitchen box, wheel levelers, window blinds, power cable with adapter, hand brush and dustpan, a camping table and two chairs. If you want to book additional equipment, like for example more camping chairs, you can do so here.",
+            "one_time": "One Time Fee",
+            "per_night": "Fee Per Night",
+            "reachedMaxStockError": "No other equipment is provided"
+        },
+        "overview": {
+            "tariff": "Tariff",
+            "tariff_subtotal": "Tariff subtotal",
+            "insurance": "Insurance",
+            "daily_cost": "Daily cost",
+            "subtotal": "Subtotal",
+            "extra": "Extra Items",
+            "include_tax": "incl. tax",
+            "total": "Total",
+            "discount": "Discount"
+        },
+        "customer": {
+            "heading": "Your personal details",
+            "sub_heading": "Fill in your personal details to finish your booking",
+            "more_drivers": "I have more drivers",
+            "your_drivers": "Your Drivers",
+            "your_drivers_desc": " ",
+            "add_more": "Add More Drivers"
+        },
+        "confirm": {
+            "station": "Pick-up and Return station",
+            "payment": "Book and pay now",
+            "payment_desc": " ",
+            "payment_method": "Payment methods",
+            "discount": "Discount",
+            "voucher_code": "Voucher code",
+            "note": "Note",
+            "comment": "Comment",
+            "klarna": "Klarna",
+            "bank_transfer": "Bank transfer",
+            "validation": {
+                "payment_method": "Please select a payment method!"
+            },
+            "promo_type": {
+                "discount_code": "Promotion discount",
+                "voucher": "Voucher discount"
+            },
+            "apply_voucher_successfully": "Code applied successfully!",
+            "hotline": "+49 (0)89 2154 1673",
+            "bank_transfer_disabled": "(only available for pickups > 14 days)"
+        },
+        "term_condition": {
+            "deposit": "Agree to pay 800€ deposit by credit card at the station.",
+            "gdpr": "Please see our {link}.",
+            "term": "Agree to our {link}.",
+            "term_part": "Terms & Conditions",
+            "gdpr_part": "Privacy Policy"
+        },
+        "validation": {
+            "driver_age": "Driver {driver}'s age ({age}) is incompatible with selected insurance package: {name}",
+            "number_driver": "Number of driver ({total}) is incompatible with selected insurance package: {name}",
+            "select_insurance": "Select Insurance",
+            "duplicatedEmailsWarning": "Email is already used. Please use another email or leave empty"
+        },
+        "offSeason": "Off-Season",
+        "night": "night",
+        "nights": "1 night | {n} nights",
+        "from": "from",
+        "total_camper_subgroups": "Camper | Campers",
+        "sort_by": {
+            "sort": "Sort",
+            "lowest_price": "Lowest Price",
+            "highest_price": "Highest Price"
+        }
+    },
+    "landingpage": {
+        "heading": "Rent a roadsurfer campervan now at the best price!",
+        "subheading": "The earlier you book, the bigger selection and the lower the price.",
+        "location": {
+            "germany": "Camper rental Germany",
+            "frankfurt": "Camper rental Frankfurt",
+            "constance": "Camper rental Constance",
+            "berlin": "Camper rental Berlin",
+            "cologne_dusseldorf": "Camper rental Cologne-Dusseldorf",
+            "hire": "Campervan hire",
+            "france": "Camper rental France",
+            "hamburg": "Camper rental Hamburg",
+            "munich": "Camper rental Munich",
+            "nuremberg": "Camper rental Nuremberg",
+            "leipzig": "Camper rental Leipzig",
+            "hanover": "Camper rental Hanover",
+            "california_ocean": "VW California rental",
+            "mercedes_marco_polo": "Mercedes Marco Polo rental",
+            "california_beach": "VW California Beach rental",
+            "stuttgart": "Camper rental Stuttgart",
+            "freiburg_basel": "Camper rental Freiburg-Basel"
+        },
+        "locationLink": {
+            "index": "https://roadsurfer.com/en/"
+        },
+        "review": "4,9 from 133 Reviews"
+    },
+    "footer": {
+        "imprint": "Imprint",
+        "imprintLink": "https://roadsurfer.com/en/imprint/",
+        "privacy": "Privacy statement",
+        "privacyLink": "https://roadsurfer.com/en/privacy-statement/",
+        "term_condition": "Terms and conditions",
+        "term_conditionLink": "https://roadsurfer.com/en/terms-and-conditions/",
+        "paymentMethods": "Payment methods"
+    },
+    "stationModal": {
+        "placeholder": "Station",
+        "select_station": "Select station",
+        "scotland": "Scotland"
+    },
+    "dateRangePickerModal": {
+        "from": "From",
+        "to": "To",
+        "more": "More",
+        "select_date": "Select date"
+    },
+    "filterModal": {
+        "title": "Filter"
+    },
+    "waitingListModal": {
+        "title": "Add to waiting list",
+        "thank_you_message": "Thank you for subscribing!",
+        "arrival": "Arrival",
+        "return": "Return",
+        "selection": "Selection"
+    },
+    "bookingAlternative": {
+        "alternative": "Find alternative options",
+        "alternative_dates": "Available dates for this station",
+        "select_date": "Select alternative dates",
+        "reference_dates": "Option 2: +/- 1 month, find alternative travel period with the same number of days",
+        "available_dates": "Option 1: +/- 2 days, change number of days in this travel period",
+        "alternative_station": "Other available stations for your booking preference",
+        "unavailable_station": "There are no available stations",
+        "unavailable_dates": "There are no available dates",
+        "loading": "Checking alternative dates..."
+    },
+    "bookingSuccessPage": {
+        "heading": "Thank you for your booking",
+        "sub_heading": "You will receive a confirmation email soon",
+        "home_button": "Go to home",
+        "promote_spots": {
+            "first_line": "Your place. Your freedom.",
+            "second_line": "Discover the cool & unique camping spots in Europe and camp individually in #roadsurfing style. Whether by the sea, on the farm or at the winemaker's.",
+            "button_content": "Find a spot now",
+            "camper": "Camper",
+            "spots": "Spots"
+        }
+    },
+    "checkout": {
+        "failure": {
+            "heading": "Your transaction couldn't be completed.",
+            "retry": "Please try again",
+            "retry_button": "Pay retry"
+        },
+        "success": {
+            "heading": "Thank you for your booking",
+            "sub_heading": "You will receive a confirmation email soon",
+            "already_charged": "Your payment has been placed. Enjoy your trip with RoadSurfer"
+        },
+        "redirect": {
+            "success": "Your transaction is successful. Reference: {reference}",
+            "error": "resultCode {resultCode} is not supported",
+            "pending": "pending",
+            "received": "Transaction result code: {reference}",
+            "code_not_found": "resultCode {resultCode} is not found"
+        },
+        "order": {
+            "payment": "Payment",
+            "pay_now": "Pay now",
+            "amount": "Amount",
+            "order_number": "Order NR",
+            "payment_method": "Payment method",
+            "pay_now_button": "Pay now",
+            "due_now": "Due Now",
+            "due_to": "Due",
+            "booking_summary": "Booking Summary",
+            "already_paid": "Already Paid",
+            "station": "Station",
+            "orderType": "Order type",
+            "referenceBookingNumber": "Reference booking number",
+            "itemList": "Items",
+            "orderTotal": "Order total",
+            "type": {
+                "single_sale": "Single Sale/Merchandise",
+                "gift_voucher": "Gift Voucher",
+                "service_fees": "Service Fees",
+                "highway_fees": "Maut (Highway Fees)",
+                "fine": "Fines/Tickets",
+                "damage": "Damage"
+            },
+            "inclTax": "(incl. TAX)",
+            "payOk": "Pay order successfully",
+            "order_cancelled_heading": "The order was cancelled",
+            "order_cancelled_content": "You can’t make a payment for the order {orderNumber}, because it was cancelled.",
+            "noVAT": "No VAT"
+        },
+        "try_again": "Your transaction couldn’t be completed. Please try again.",
+        "expired_session_title": "Your session has expired",
+        "expired_session_message": "Unfortunately, your booking process took a little too long. Please start again from your search results."
+    },
+    "error": {
+        "defaultError": "Ooops!!",
+        "defaultMessage": "that page doesn't exist or is unavailable.",
+        "pageNotFoundError": "Page Not Found!",
+        "returnHomeButton": "Back To Home",
+        "minimumBookingPeriodRequired": "Booking duration has to be at least {minimumBookingPeriod} nights long",
+        "maximumBookingPeriodRequired": "The maximal duration of the rental is {maximumBookingPeriod} nights",
+        "maximumBookingPeriodForGermanOnly": "Due to legal regulations, the rental of vehicles for a period of more than {maximumBookingPeriod} nights is only possible at the German stations and for clients with residency in Germany. Please, reduce the number of rental days.",
+        "under18Error": "You have to be at least 18 years old",
+        "invalid_booking_hour": {
+            "title": "It's not possible to book for tomorrow",
+            "content": "Sorry, it's not possible to book for the next day after 14.00. We will redirect you to the search results page to show availabilities of the next day."
+        }
+    },
+    "apiErrors": {
+        "internal_server_error": "Oops! Something went wrong.",
+        "booking_number": "Booking number does not exist or expired.",
+        "transaction_fail": "Your transaction could not be completed. Please try again or use another payment method ",
+        "invalid_input": "There is a problem with your request, please try again",
+        "bad_gateway": "Bad Gateway",
+        "invalid": "Code cannot be used for this booking. Please check the description of the code before applying.",
+        "invalid_status": "This code is not valid due to no balance left, or application date is ineligible",
+        "invalid_booking_period": "Voucher code cannot be used.",
+        "invalid_code_limit_reached": "Voucher code cannot be used.",
+        "invalid_customer_used_this_code": "Voucher code cannot be used.",
+        "invalid_used_this_type": "Only one discount code of this type is allowed",
+        "multiple_discounts": "Only one discount code of this type is allowed",
+        "duplicate_discount": "This code is already applied",
+        "duplicate": "You have already added your email address to the waiting list for the given criteria",
+        "transaction_fail_with_reason": "Your transaction could not be completed due to the following reason: {reason}",
+        "adyen": {
+            "2": "Transaction was refused, please check your payment details or try another payment method. CODE: 2",
+            "3": "Transaction was refused, please check your payment details or try another payment method. CODE: 3",
+            "4": "Transaction was refused because of a problem on acquirer side, please try again. CODE: 4",
+            "5": "Transaction was refused because this card is blocked, please try with another card or payment method. CODE: 5",
+            "6": "Transaction was refused because this card is expired, please try with another card or payment method. CODE: 6",
+            "7": "Transaction was refused, please get in touch with customer support. CODE: 7",
+            "8": "Transaction was refused because card number is invalid. Please enter correct card number or try with another card or payment method. CODE: 8",
+            "9": "Transaction was refused because issuer did not respond. Please try with another card or payment method. CODE: 9",
+            "10": "Transaction was refused because it's not supported by your bank. Please try with another card or payment method. CODE: 10",
+            "11": "Transaction was refused because 3D Secure authentication failed. Please enter 3D Secure details correctly or try with another card or payment method. CODE: 11",
+            "12": "Transaction was refused because of insufficient funds on this card. Please try with another card or payment method. CODE: 12",
+            "14": "Transaction was refused, please try with another card or payment method. CODE: 14",
+            "15": "Transaction was cancelled, please try again. CODE: 15",
+            "16": "Transaction was cancelled, please try again. CODE: 16",
+            "17": "Transaction was refused because specified PIN is incorrect or invalid. Please enter details correctly or try with another card or payment method. CODE: 17",
+            "18": "Transaction was refused because PIN tries exceeded. Please try with another card or payment method. CODE: 18",
+            "19": "Transaction was refused because It's not possible to validate the specified PIN number. Please try with another card or payment method. CODE: 19",
+            "20": "Transaction was refused, please try with another card or payment method. CODE: 20",
+            "21": "Transaction was refused, please try again. CODE: 21",
+            "22": "Transaction was refused, please try with another card or payment method. CODE: 22",
+            "23": "Transaction was refused because this card is either restricted or not valid in this country. Please try with another card or payment method. CODE: 23",
+            "24": "Transaction was refused because specified CVC is incorrect or invalid. Please enter details correctly or try with another card or payment method. CODE: 24",
+            "25": "Transaction was refused because this card is either restricted or not valid in this country. Please try with another card or payment method. CODE: 25-62",
+            "26": "Revocation Of Auth",
+            "27": "Transaction was refused, please try with another card or payment method. CODE: 27",
+            "28": "Transaction was refused because withdrawal amount is exceeded. Please try with another card or payment method. CODE: 28",
+            "29": "Transaction was refused because withdrawal count is exceeded. Please try with another card or payment method. CODE: 29",
+            "31": "Transaction was refused, please try with another card or payment method. CODE: 31",
+            "32": "Transaction was refused because AVS was declined. Please enter your address details correctly. CODE: 32",
+            "33": "Transaction was refused because it's required to enter an online PIN. Please get in touch with customer support. CODE: 33",
+            "34": "Transaction was refused. Please get in touch with customer support. CODE: 34",
+            "35": "Transaction was refused. Please get in touch with customer support. CODE: 35",
+            "36": "Transaction was refused because it's required to enter a mobile PIN. Please get in touch with customer support. CODE: 36",
+            "37": "Transaction was abandoned after the contactless payment attempt. CODE: 37",
+            "38": "Transaction was refused because issuer requires authentication for the transaction. Please get in touch with customer support. CODE: 38",
+            "39": "Transaction was refused because 3D Secure 2 authentication wasn't completed correctly. Please enter the details correctly or try with another card or payment method. CODE: 39"
+        },
+        "invalid_balance": "This code is not valid due to no balance left, or application date is ineligible",
+        "invalid_voucher_applied": "Cannot update an applied voucher code",
+        "model_not_available": "Unfortunately, this camper van is no longer available. We will take you to the search results to select another van."
+    },
+    "urls": {
+        "deposit": "https://roadsurfer.com/en/faq/",
+        "gdpr": "https://roadsurfer.com/en/privacy-statement/",
+        "term": "https://roadsurfer.com/en/terms-and-conditions/"
+    },
+    "companyDetails": {
+        "labelRegistrationNumber": "CRN",
+        "labelVatNumber": "EU VAT number",
+        "labelTaxNumber": "Tax number"
+    },
+    "updatedInsuranceModal": {
+        "title": "INSURANCE PACKAGE UPGRADE",
+        "body": "Your insurance package has been upgraded. You will shortly receive an email and using the payment link in the email you can make your payment before arriving at the station."
+    },
+    "petAllowedFilterModal": {
+        "title": "Dog flat-rate",
+        "description": "Dogs are allowed – of course your four-legged friend can come along and join you! For this we will charge an additional fee of",
+        "price": "{petExtraPrice} Euros.",
+        "acceptButton": "Add",
+        "abortButton": "Cancel"
+    }
+}

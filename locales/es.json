@@ -1,0 +1,383 @@
+{
+    "home": "Página de inicio",
+    "about": "Sobre nosotros",
+    "common": {
+        "days": "noches",
+        "continue_button": "Continuar",
+        "apply_button": "Aplicar",
+        "address": "Dirección",
+        "phone": "Teléfono",
+        "ok_button": "OK",
+        "select_date": "Seleccionar fecha",
+        "email": "Correo electrónico",
+        "office_hour": "Horarios laborales",
+        "submit": "Guardar",
+        "remove": "Borrar",
+        "finish": "Pagar ya"
+    },
+    "form": {
+        "customer": {
+            "first_name": "Nombre",
+            "last_name": "Apellido",
+            "title": "Título",
+            "company": "Compañía",
+            "street": "Calle y número",
+            "postalcode": "Código postal",
+            "city": "Ciudad",
+            "country": "País",
+            "mobile": "Móvil",
+            "landline_phone": "Teléfono fijo",
+            "birthday": "Fecha de nacimiento",
+            "placeOfBirth": "Lugar de nacimiento",
+            "sir": "Señor",
+            "madam": "Señora",
+            "business": "Empresa",
+            "email": "Correo electrónico",
+            "taxNumberRequired": "Se requiere el número de identificación fiscal",
+            "yourPersonalDetails": "Tus datos personales",
+            "driver": "Conductor",
+            "idDetails": "Datos del documento de identidad",
+            "driversLicenseDetails": "Datos del carné de conducir",
+            "idNumber": "Número del documento de identidad",
+            "idDate": "Fecha de expedición",
+            "issuingPlace": "Organismo expedidor",
+            "issuingCountry": "País expedidor",
+            "driversLicenseNumber": "Número del carné de conducir",
+            "driversLicenseClass": "Tipo de permiso de conducir",
+            "issuingAuthority": "Expedido por",
+            "dateOfIssue": "Fecha de expedición",
+            "submit": "Confirmar"
+        }
+    },
+    "navbar": {
+        "home_link": "Reserva",
+        "vehicle_link": "Modelos",
+        "rate_link": "Tarifas",
+        "select_lang": "Idiomas",
+        "select_menu": "Menú"
+    },
+    "contact": {
+        "hotline": "Atención al cliente",
+        "phone": "Teléfono",
+        "email": "Correo electrónico",
+        "open_hour": "LU-SÁ 9:00-18:00"
+    },
+    "booking": {
+        "expired_session": "Tu sesión está a punto de caducar. ¿Quieres extenderla?",
+        "available": "Reserva disponible",
+        "unavailable": "Todo reservado",
+        "step": {
+            "select_vehicle": "Busca y selecciona tu camper",
+            "select_extra": "Selecciona tus extras",
+            "input_details": "Tus datos",
+            "checkout": "Confirmar y pagar"
+        },
+        "filter": {
+            "label": "Filtros",
+            "kitchen": "Cocina",
+            "seat_5": "5 asientos",
+            "pet_allowed": "Se admiten perros",
+            "trailer_hitch": "Enganche para remolque",
+            "outdoor_shower": "Ducha exterior",
+            "built_in_wc": "WC incluido"
+        },
+        "searchResult": {
+            "booking_days": "noches",
+            "total_price": "Precio total",
+            "select": "Seleccionar",
+            "show_alternative": "Muestra alternativas",
+            "watching_list": "Añadir a la lista de espera",
+            "seePricesPerNight": "Ver precios por noche"
+        },
+        "insurance": {
+            "heading": "Coberturas para un viaje sin preocupaciones",
+            "desc": "Todas las reservas con la cobertura Basic incluyen un seguro a todo riesgo, kilómetros ilimitados, un segundo conductor y asistencia en carretera 24/7 en toda Europa. Si deseas reducir tu franquicia de daños y/o deseas tener más de 2 conductores, selecciona el paquete de cobertura correspondiente.",
+            "free": "Incluido"
+        },
+        "extra": {
+            "heading": "Equipación adicional para alquilar",
+            "desc": "Tu camper está equipada con numerosos artículos de camping. ¡Gratis para ti! Por ejemplo, con un toldo, un juego de cocina completo, unas cuñas niveladoras, una mesa de camping y dos sillas. Si quieres reservar equipo adicional, como por ejemplo más sillas, puedes hacerlo aquí.",
+            "one_time": "Tarifa única",
+            "per_night": "Tarifa por noche",
+            "reachedMaxStockError": "No hay más equipamiento disponible"
+        },
+        "overview": {
+            "tariff": "Tarifa",
+            "tariff_subtotal": "Subtotal de la tarifa",
+            "insurance": "Seguro",
+            "daily_cost": "Coste diario",
+            "subtotal": "Subtotal",
+            "extra": "Artículos extras",
+            "include_tax": "incl. IVA",
+            "total": "Total",
+            "discount": "Descuento"
+        },
+        "customer": {
+            "heading": "Tus datos personales",
+            "sub_heading": "Rellena las casillas para finalizar la reserva",
+            "more_drivers": "Añadir conductores",
+            "your_drivers": "Tus conductores",
+            "your_drivers_desc": " ",
+            "add_more": "Añadir más conductores"
+        },
+        "confirm": {
+            "station": "Oficina de alquiler",
+            "payment": "Reservar y pagar ahora",
+            "payment_desc": " ",
+            "payment_method": "Métodos de pago",
+            "discount": "Descuento",
+            "voucher_code": "Código de descuento",
+            "note": "Notas",
+            "comment": "Comentario",
+            "klarna": "Klarna",
+            "bank_transfer": "Transferencia bancaria",
+            "validation": {
+                "payment_method": "¡Por favor, selecciona tu método de pago deseado!"
+            },
+            "promo_type": {
+                "discount_code": "Descuento por promoción",
+                "voucher": "Vales de descuento"
+            },
+            "apply_voucher_successfully": "¡El código ha sido aplicado con éxito!",
+            "hotline": "+34 912 170 241",
+            "bank_transfer_disabled": "(solo para recogidas > 14 días)"
+        },
+        "term_condition": {
+            "deposit": "Acepto pagar la fianza de 800€ con tarjeta en la recogida.",
+            "gdpr": "Consulta nuestra {link}.",
+            "term": "Acepto los {link}.",
+            "term_part": "términos y condiciones",
+            "gdpr_part": "política de privacidad"
+        },
+        "validation": {
+            "driver_age": "La edad ({age}) del conductor {driver} es incompatible con el paquete de cobertura seleccionado: {name}",
+            "number_driver": "El número de conductores ({total}) es incompatible con el paquete de cobertura seleccionado: {name}",
+            "select_insurance": "Seleccionar cobertura",
+            "duplicatedEmailsWarning": "El correo electrónico ya se utiliza. Por favor, use otro E-Mail o déjelo vacío"
+        },
+        "offSeason": "Temporada baja",
+        "night": "noche",
+        "nights": "1 noche | {n} noches",
+        "from": "desde",
+        "total_camper_subgroups": "Camper | Campers",
+        "sort_by": {
+            "sort": "Filtrar",
+            "lowest_price": "Precio más bajo",
+            "highest_price": "Precio más alto"
+        }
+    },
+    "landingpage": {
+        "heading": "¡Reserva tu camper ahora al mejor precio!",
+        "subheading": "Cuanto antes reservas, mayor es la selección y menor el precio.",
+        "location": {
+            "germany": "Alquilar furgoneta camper Alemania",
+            "frankfurt": "Alquilar furgoneta camper Fráncfort",
+            "constance": "Alquilar furgoneta camper Constanza",
+            "berlin": "Alquilar furgoneta camper Berlín",
+            "cologne_dusseldorf": "Alquilar furgoneta camper Colonia-Düsseldorf",
+            "hire": "Alquiler de furgonetas camper",
+            "france": "Alquilar furgoneta camper Francia",
+            "hamburg": "Alquilar furgoneta camper Hamburgo",
+            "munich": "Alquilar furgoneta camper Múnich",
+            "nuremberg": "Alquilar furgoneta camper Núremberg",
+            "leipzig": "Alquilar furgoneta camper Leipzig",
+            "hanover": "Alquilar furgoneta camper Hannover",
+            "california_ocean": "Alquilar Volkswagen California T6",
+            "mercedes_marco_polo": "Alquilar Mercedes Marco Polo",
+            "california_beach": "Alquilar Volkswagen California Beach",
+            "stuttgart": "Alquilar furgoneta camper Stuttgart",
+            "freiburg_basel": "Alquilar furgoneta camper Friburgo-Basilea"
+        },
+        "locationLink": {
+            "index": "https://roadsurfer.com/es/"
+        },
+        "review": "4,9 de 133 calificaciones"
+    },
+    "footer": {
+        "imprint": "Aviso legal",
+        "imprintLink": "https://roadsurfer.com/es/aviso-legal/",
+        "privacy": "Protección de datos",
+        "privacyLink": "https://roadsurfer.com/es/proteccion-de-datos/",
+        "term_condition": "CGC",
+        "term_conditionLink": "https://roadsurfer.com/es/cgc/",
+        "paymentMethods": "Métodos de pago"
+    },
+    "stationModal": {
+        "placeholder": "Oficina",
+        "select_station": "Seleccionar oficina",
+        "scotland": "Escocia"
+    },
+    "dateRangePickerModal": {
+        "from": "Desde",
+        "to": "Hasta",
+        "more": "Más",
+        "select_date": "Seleccionar fecha"
+    },
+    "filterModal": {
+        "title": "Filtros"
+    },
+    "waitingListModal": {
+        "title": "Inscribirse en la lista de espera",
+        "thank_you_message": "¡Gracias por suscribirte!",
+        "arrival": "Salida",
+        "return": "Regreso",
+        "selection": "Selección"
+    },
+    "bookingAlternative": {
+        "alternative": "Encuentra alternativas",
+        "alternative_dates": "Fechas libres en esta oficina",
+        "select_date": "Seleccionar otras fechas",
+        "reference_dates": "Opción 2: Mantener la duración del viaje para un período disponible (+/- 1 mes)",
+        "available_dates": "Opción 1: Cambiar el número de días en este período (+/- 2 días)",
+        "alternative_station": "Otras oficinas libres para tu fecha deseada",
+        "unavailable_station": "No hay otras oficinas libres",
+        "unavailable_dates": "No hay fechas disponibles",
+        "loading": "Buscando fechas alternativas"
+    },
+    "bookingSuccessPage": {
+        "heading": "Gracias por tu reserva",
+        "sub_heading": "Recibirás una confirmación por Email",
+        "home_button": "Ir a la página de inicio"
+    },
+    "checkout": {
+        "failure": {
+            "heading": "Tu transacción no se ha podido realizar",
+            "retry": "Por favor, inténtalo otra vez",
+            "retry_button": "Reintentar el pago"
+        },
+        "success": {
+            "heading": "Gracias por tu pago",
+            "sub_heading": "Recibirás una confirmación por Email",
+            "already_charged": "Tu pago se ha realizado. Disfruta de tu viaje con roadsurfer"
+        },
+        "redirect": {
+            "success": "Tu transacción fue exitosa. Referencia: {reference}",
+            "error": "resultCode {resultCode} no está soportado",
+            "pending": "pendiente",
+            "received": "Transaction result code: {reference}",
+            "code_not_found": "resultCode {resultCode} no se ha encontrado"
+        },
+        "order": {
+            "payment": "Pago",
+            "pay_now": "Pagar ahora",
+            "amount": "Cantidad",
+            "order_number": "Número de orden",
+            "payment_method": "Método de pago",
+            "pay_now_button": "Pagar ya",
+            "due_now": "Se debe ahora",
+            "due_to": "Debido a",
+            "already_paid": "Ya pagado",
+            "orderType": "Tipo de pedido",
+            "referenceBookingNumber": "Número de reserva",
+            "itemList": "Artículos",
+            "orderTotal": "Total del pedido",
+            "type": {
+                "single_sale": "Venta individual/Mercancía",
+                "gift_voucher": "Vale de regalo",
+                "service_fees": "Tarifa de servicio",
+                "fine": "Multas",
+                "damage": "Daños",
+                "highway_fees": "Peajes"
+            },
+            "order_cancelled_heading": "El pedido ha sido cancelado",
+            "order_cancelled_content": "No puede realizar un pago para el pedido {orderNumber}, porque ha sido cancelado.",
+            "noVAT": "Sin IVA"
+        },
+        "try_again": "No se pudo finalizar tu reserva. Por favor, inténtalo de nuevo.",
+        "expired_session_title": "Tu sesión ha caducado",
+        "expired_session_message": "Lamentablemente, tu proceso de reserva ha durado demasiado. Te remitimos a tus resultados de búsqueda para que puedas empezar de nuevo."
+    },
+    "error": {
+        "defaultError": "¡¡Ups!!",
+        "defaultMessage": "esta página no existe o no está disponible.",
+        "pageNotFoundError": "¡Página no disponible!",
+        "returnHomeButton": "Volver a la página inicial",
+        "minimumBookingPeriodRequired": "La duración mínima debe ser superior a {minimumBookingPeriod} noches",
+        "maximumBookingPeriodRequired": "La duración máxima del alquiler es de {maximumBookingPeriod} noches",
+        "maximumBookingPeriodForGermanOnly": "Debido a prescripciones legales, el alquiler de vehículos para un periodo de tiempo superior a {maximumBookingPeriod} noches solo es posible en las estaciones alemanas para clientes con domicilio en Alemania. Por favor, reduce el número de días de alquiler.",
+        "under18Error": "Tienes que tener al menos 18 años",
+        "invalid_booking_hour": {
+            "title": "No es posible reservar un camper para mañana.",
+            "content": "Lo sentimos, no es posible reservar para el día siguiente después de las 14.00. Le redirigiremos a la página de resultados de la búsqueda para mostrar las disponibilidades del día siguiente."
+        }
+    },
+    "apiErrors": {
+        "internal_server_error": "¡Ups! Hubo un error inesperado.",
+        "booking_number": "El número de reserva no existe o ha caducado.",
+        "transaction_fail": "Tu transacción no se ha podido realizar. Por favor, inténtalo de nuevo ",
+        "invalid_input": "Hubo un problema con tu solicitud, por favor, inténtalo de nuevo.",
+        "bad_gateway": "Entrada incorrecta",
+        "invalid": "El código no puede ser usado para esta reserva. Por favor, comprueba la descripción del código antes de aplicarlo.",
+        "invalid_status": "Este código no es válido porque no queda saldo, o la fecha de solicitud no es elegible",
+        "invalid_booking_period": "No se pudo aplicar el vale.",
+        "invalid_code_limit_reached": "No se pudo aplicar el vale.",
+        "invalid_customer_used_this_code": "No se pudo aplicar el vale.",
+        "multiple_discounts": "Sólo se permite un código de descuento de este tipo",
+        "duplicate_discount": "Este código ya está aplicado",
+        "duplicate": "Has añadido correctamente la dirección de correo electrónico a la lista de espera.",
+        "transaction_fail_with_reason": "Tu transacción no pudo ser completada por la siguiente razón: {reason}",
+        "adyen": {
+            "2": "La transacción fue rechazada. Comprueba tus datos de pago o elige otro método de pago. CODE: 2",
+            "3": "La transacción fue rechazada. Comprueba tus datos de pago o elige otro método de pago. CODE: 3",
+            "4": "La transacción fue rechazada porque hubo un problema con el comprador. Prueba de nuevo. CODE: 4",
+            "5": "La transacción fue rechazada porque esta tarjeta está bloqueada. Prueba con otra tarjeta. CODE: 5",
+            "6": "La transacción fue rechazada porque está tarjeta ya no es válida. Prueba con otra tarjeta o método de pago. CODE: 6",
+            "7": "La transacción fue rechazada. Contacta con nuestro servicio al cliente. CODE: 7",
+            "8": "La transacción fue rechazada porque el número de tarjeta no es válido. Introduce el número de tarjeta correcto o usa otra tarjeta o método de pago. CODE: 8",
+            "9": "La transacción fue rechazada porque el expedido no respondió. Prueba con otra tarjeta o método de pago. CODE: 9",
+            "10": "La transacción fue rechazada porque no es admitida por tu banco. Prueba con otra tarjeta o método de pago. CODE: 10",
+            "11": "La transacción fue rechazada porque el proceso 3D Secure no tuvo éxito. Introduce los datos de 3D Secure correctos o prueba con otra tarjeta o método de pago. CODE: 11",
+            "12": "La transacción fue rechazada debido a importe insuficiente en la tarjeta. Prueba con otra tarjeta o método de pago. CODE: 12",
+            "14": "La transacción fue rechazada. Prueba con otra tarjeta o método de pago. CODE: 14",
+            "15": "La transacción fue cancelada. Prueba de nuevo. CODE: 15",
+            "16": "La transacción fue cancelada. Prueba de nuevo. CODE: 16",
+            "17": "La transacción fue rechazada porque el PIN es incorrecto o inválido. Introduce los datos correctos o prueba con otra tarjeta o método de pago. CODE: 17",
+            "18": "La transacción fue rechazada porque has usado todos los intentos para el PIN. Prueba con otra tarjeta o método de pago. CODE: 18",
+            "19": "La transacción fue rechazada porque la validación del PIN no es posible. Prueba con otra tarjeta o método de pago. CODE: 19",
+            "20": "La transacción fue rechazada. Prueba con otra tarjeta o método de pago. CODE: 20",
+            "21": "La transacción fue rechazada. Prueba de nuevo. CODE: 21",
+            "22": "La transacción fue rechazada. Prueba con otra tarjeta o método de pago. CODE: 22",
+            "23": "La transacción fue rechazada porque esta tarjeta está o limitada o no es válida en este país. Prueba con otra tarjeta o método de pago. CODE: 23",
+            "24": "La transacción fue rechazada porque el CVC es incorrecto o inválido. Introduce los datos correctos o prueba con otra tarjeta o método de pago. CODE: 24",
+            "25": "La transacción fue rechazada porque esta tarjeta está o limitada o no es válida en este país. Prueba con otra tarjeta o método de pago. CODE: 25-62",
+            "26": "Revocation Of Auth",
+            "27": "La transacción fue rechazada. Prueba con otra tarjeta o método de pago. CODE: 27",
+            "28": "La transacción fue rechazada porque el importe de retirada ha sido superado. Prueba con otra tarjeta o método de pago. CODE: 28",
+            "29": "La transacción fue rechazada porque el importe de retirada ha sido superado. Prueba con otra tarjeta o método de pago. CODE: 29",
+            "31": "La transacción fue rechazada. Prueba con otra tarjeta o método de pago. CODE: 31",
+            "32": "La transacción fue rechazada porque el AVS ha sido rechazado. Introduce tu dirección correcta. CODE: 32",
+            "33": "La transacción fue rechazada porque se requiere un PIN online. Contacta con nuestro servicio al cliente. CODE: 33",
+            "34": "La transacción fue rechazada. Contacta con con nuestro servicio al cliente. CODE: 34",
+            "35": "La transacción fue rechazada. Contacta con con nuestro servicio al cliente. CODE: 35",
+            "36": "La transacción fue rechazada porque se requiere un PIN móvil. Contacta con nuestro servicio al cliente. CODE: 36",
+            "37": "La transacción ha sido abandonada tras el intento de pago sin contacto.",
+            "38": "La transacción fue rechazada porque es necesaria una autentificación. Contacta con nuestro servicio al cliente. CODE: 38",
+            "39": "La transacción fue rechazada porque la autentificación 3D Secure 2 no fue completada correctamente. Intoduce los datos correctos o prueba con una nueva tarjeta o método de pago. CODE: 39"
+        },
+        "invalid_balance": "Este código no es válido porque no queda saldo, o la fecha de solicitud no es elegible",
+        "invalid_voucher_applied": "",
+        "invalid_used_this_type": "Sólo se permite un código de descuento de este tipo",
+        "model_not_available": "Lamentablemente, esta camper ya no está disponible. Te redirigimos a la selección de campers."
+    },
+    "urls": {
+        "deposit": "https://roadsurfer.com/es/preguntas-frecuentes/",
+        "gdpr": "https://roadsurfer.com/es/proteccion-de-datos/",
+        "term": "https://roadsurfer.com/es/cgc/"
+    },
+    "companyDetails": {
+        "labelRegistrationNumber": "RM",
+        "labelVatNumber": "IVA de la UE",
+        "labelTaxNumber": "NII"
+    },
+    "updatedInsuranceModal": {
+        "title": "ACTUALIZACIÓN DE TU PAQUETE DE SEGURO",
+        "body": "Tu paquete de seguro ha sido actualizado. En breve recibirás una confirmación por e-mail. Por favor, usa el enlace de pago en el e-mail para realizar el pago pendiente antes del comienzo del alquiler."
+    },
+    "petAllowedFilterModal": {
+        "title": "Tarifa para perros",
+        "description": "Se admiten perros - ¡tu perro puede viajar contigo! Para ello te cobramos una tasa adicional de",
+        "price": "{petExtraPrice}€.",
+        "acceptButton": "Añadir",
+        "abortButton": "Cancelar"
+    }
+}
