@@ -6,7 +6,7 @@ interface User {
 }
 
 export default function () {
-  const user = useState<User>('user', () => ({ name: '' }))
+  const user = useState<User>('user', () => ({ name: '...' }))
   const loading = ref(false)
 
   const fetchUser = async () => {

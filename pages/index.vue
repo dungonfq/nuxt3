@@ -1,20 +1,14 @@
 <template>
 	<div class="p-6">
 		<div class="text-xl text-green-500">{{ $t('booking.step.select_vehicle') }}</div>
-		<div class="text-xl text-red-500">Hello {{ getUser.name }}</div>
+		<div class="text-xl text-red-500">Hello {{ user.name }}</div>
 		<div class="my-2">
-			<select class="p-3 border border-gray-200" v-model="$i18n.locale">
-				<option
-					v-for="locale in $i18n.availableLocales"
-					:key="`locale-${locale}`"
-					:value="locale">{{ locale }}
-				</option>
-			</select>
+			<locale-switcher />
 		</div>
 		<div class="my-2">
 			<button
 				class="bg-blue-500 p-4 text-white cursor-pointer"
-				@click="fetch"
+				@click="fetchUser()"
 			>
 				{{ $t('common.submit') }}
 			</button>
@@ -25,21 +19,20 @@
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
 import useUser from '~~/composables/useUser'
+import LocaleSwitcher from '~/components/LocaleSwitcher.vue'
 
 export default defineComponent({
 	layout: 'default',
+	components: {
+		LocaleSwitcher
+	},
 	setup (props) {
-		const userApi = useUser()
-		const getUser = computed(() => userApi.user.value)
+		const { fetchUser } = useUser()
+		const user = computed(() => useUser().user.value )
 		return {
-			userApi,
-			getUser
+			user,
+			fetchUser
 		}
 	},
-	methods: {
-		fetch () {
-			this.userApi.fetchUser()
-		}
-	}
 })
 </script>
