@@ -1,9 +1,12 @@
 import axios from 'axios'
 import { ref, readonly } from 'vue'
-import User from '~/models/User'
+
+interface User {
+  name: string
+}
 
 export default function () {
-  const user = useState('user', () => ( new User() ))
+  const user = useState<User>('user', () => ({ name: '' }))
   const loading = ref(false)
 
   const fetchUser = async () => {
