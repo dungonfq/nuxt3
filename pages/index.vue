@@ -15,7 +15,7 @@
 				class="bg-blue-500 p-4 text-white cursor-pointer"
 				@click="fetch"
 			>
-				Fetch
+				{{ $t('common.submit') }}
 			</button>
 		</div>
 	</div>
@@ -23,15 +23,19 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import useUser from '~~/composables/useUser'
 
 export default defineComponent({
 	layout: 'default',
-	setup(props) {
-
+	setup (props) {
+		const userApi = useUser()
+		return {
+			userApi
+		}
 	},
 	methods: {
 		fetch () {
-			this.$api.user.getUser()
+			this.userApi.fetchUser()
 		}
 	}
 })
