@@ -1,6 +1,7 @@
 <template>
 	<div class="p-6">
-		Hello <span class="text-xl text-green-500">{{ $t('booking.step.select_vehicle') }}</span>
+		<div class="text-xl text-green-500">{{ $t('booking.step.select_vehicle') }}</div>
+		<div class="text-xl text-red-500">Hello {{ getUser.name }}</div>
 		<div class="my-2">
 			<select class="p-3 border border-gray-200" v-model="$i18n.locale">
 				<option
@@ -22,15 +23,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, computed } from 'vue'
 import useUser from '~~/composables/useUser'
 
 export default defineComponent({
 	layout: 'default',
 	setup (props) {
 		const userApi = useUser()
+		const getUser = computed(() => userApi.user.value)
 		return {
-			userApi
+			userApi,
+			getUser
 		}
 	},
 	methods: {
