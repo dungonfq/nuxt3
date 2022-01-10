@@ -2,7 +2,7 @@ import { I18N_COOKIE_NAME } from '~/services/constants'
 
 export default (nuxtApp: any) => {
   const { vueApp, $router } = nuxtApp
-  const { $i18n } = vueApp.config.globalPrsoperties;
+  const { $i18n } = vueApp.config.globalProperties;
 
   $router.beforeEach(async (to: any, from: any, next: Function) => {
     // TODO: handle before change locale
