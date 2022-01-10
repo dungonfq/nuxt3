@@ -14,11 +14,6 @@ export default function() {
     document.cookie = `${I18N_COOKIE_NAME}=${locale}`
   }
 
-  const localePath = (name: string) => {
-    // TODO: switch the route to the specified locale
-    // $router.push({ 'path': `/${$i18n.locale}/` + to.fullPath})
-  }
-
   return {
     currentLocale: readonly(currentLocale),
     availableLocales: readonly(availableLocales),
