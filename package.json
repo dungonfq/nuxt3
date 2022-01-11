@@ -3,14 +3,30 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "test": "jest --verbose --coverage=false",
+    "test-ci": "jest --verbose --coverage=true --coverageDirectory=coverage --coverageReporters=lcov",
+    "coverage": "jest"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
     "@intlify/nuxt3": "^0.1.10",
+    "@types/jest": "^27.4.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
     "axios": "^0.24.0",
+    "jest": "^27.4.7",
     "js-cookie": "^3.0.1",
     "lodash": "^4.17.21",
     "nuxt-windicss": "^2.2.2",
-    "nuxt3": "^3.0.0-27356801.e9128f3"
+    "nuxt3": "^3.0.0-27356801.e9128f3",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "vue3-jest": "^27.0.0-alpha.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-jest": "^27.4.6"
   }
 }
