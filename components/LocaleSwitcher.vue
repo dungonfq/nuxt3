@@ -25,11 +25,16 @@ export default defineComponent({
   setup () {
     const { currentLocale, availableLocales } = useLocale()
     const { $router } = useNuxtApp()
-    const { name } = $router.currentRoute.value
+    const { name, path } = $router.currentRoute.value
 
     const getLocalePath = (locale: String) => {
-      const newLocaleRoute = $router.resolve({ name, params: { locale } })
-      return newLocaleRoute.path
+      const hasLocale = availableLocales.some((loc: string) => path.startsWith(`/${loc}`))
+      if (hasLocale) {
+        const newLocaleRoute = $router.resolve({ name, params: { locale } })
+        return newLocaleRoute.path
+      } else {
+        return `/${locale}${path}`
+      }
     }
 
     return {
