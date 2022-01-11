@@ -13,6 +13,9 @@
 				{{ $t('common.submit') }}
 			</button>
 		</div>
+		<rs-link to="/booking">
+			To booking page
+		</rs-link>
 	</div>
 </template>
 

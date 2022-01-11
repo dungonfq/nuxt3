@@ -6,9 +6,10 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@intlify/nuxt3": "^0.1.10",
     "axios": "^0.24.0",
     "lodash": "^4.17.21",
     "nuxt-windicss": "^2.2.2",
-    "nuxt3": "latest"
+    "nuxt3": "^3.0.0-27356801.e9128f3"
   }
 }
