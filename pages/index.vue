@@ -22,13 +22,13 @@
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
 import useUser from '~~/composables/useUser'
-import LocaleSwitcher from '~/components/LocaleSwitcher.vue'
+// import LocaleSwitcher from '~/components/LocaleSwitcher.vue'
 
 export default defineComponent({
 	layout: 'default',
-	components: {
-		LocaleSwitcher
-	},
+	// components: {
+	// 	LocaleSwitcher
+	// },
 	setup (props) {
 		const { fetchUser } = useUser()
 		const user = computed(() => useUser().user.value )

@@ -111,14 +111,14 @@ export class CreateWrapperFactory {
   withBasicSetup () {
     let basicOptions = {
       stubs: {
-        modal: true,
-        icon: true
+        // modal: true,
+        // icon: true
       },
       mocks: {
         // $config: {},
         $t: (text: string) => text,
         $tc: (text: string) => text,
-        $n: (text: string) => text,
+        $n: (text: string) => text
       }
     }
 

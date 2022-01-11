@@ -1,12 +1,13 @@
 import { ref, readonly } from 'vue'
+import { AVAILABLE_LOCALES } from '~/services/constants'
+import { useI18n } from 'vue-i18n'
 
 export default function() {
-  const { vueApp } = useNuxtApp()
-  const { $i18n } = vueApp.config.globalProperties;
-  const currentLocale = ref<string>($i18n.locale)
+  const i18n = useI18n()
+  const currentLocale = ref<string>(i18n.locale.value)
 
   return {
     currentLocale: readonly(currentLocale),
-    availableLocales: readonly($i18n.availableLocales)
+    availableLocales: readonly(AVAILABLE_LOCALES)
   }
 }

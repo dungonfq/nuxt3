@@ -15,43 +15,21 @@ const localeRoutes = [
   }
 ]
 
-const NUMBER_FORMATS = {
-  currency: {
-    style: 'currency', currency: 'EUR', currencyDisplay: 'narrowSymbol', minimumFractionDigits: 2, maximumFractionDigits: 2
-  },
-  shortCurrency: {
-    style: 'currency', currency: 'EUR', currencyDisplay: 'narrowSymbol', minimumFractionDigits: 0, maximumFractionDigits: 0
-  },
-  number: {
-    minimumFractionDigits: 2, maximumFractionDigits: 2
-  }
-}
-
-const intlify = {
-  vueI18n: {
-    locale: process.env.DEFAULT_LOCALE || 'de',
-    fallbackLocale: 'en',
-    numberFormats: {
-      en: NUMBER_FORMATS,
-      de: NUMBER_FORMATS,
-      es: NUMBER_FORMATS
-    }
-  }
-}
-
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  vite: false,
   buildModules: [
-    'nuxt-windicss',
-    '@intlify/nuxt3'
+    'nuxt-windicss'
   ],
   hooks: {
     'pages:extend' (pages) {
       pages.push(...localeRoutes)
     }
   },
-  intlify,
   components: [
     '~/components/common',
-  ]
+  ],
+  publicRuntimeConfig: {
+    DEFAULT_LOCALE: process.env.DEFAULT_LOCALE
+  }
 })
