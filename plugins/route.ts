@@ -1,3 +1,6 @@
+import Cookies from 'js-cookie'
+import { I18N_COOKIE_NAME } from '~/services/constants'
+
 export default (nuxtApp: any) => {
   const { vueApp, $router } = nuxtApp
   const { $i18n } = vueApp.config.globalProperties;
@@ -11,6 +14,7 @@ export default (nuxtApp: any) => {
 
     if (isValidLocale) {
       $i18n.locale = locale
+      Cookies.set(I18N_COOKIE_NAME, locale)
     }
   })
 }
