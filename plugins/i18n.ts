@@ -1,6 +1,6 @@
 import { createI18n } from 'vue-i18n'
 import { nextTick } from 'vue'
-import { AVAILABLE_LOCALES } from '~~/services/constants'
+import { AVAILABLE_LOCALES } from '~/services/constants'
 
 const loadLocaleMessages = async (i18n: any, locale: string) => {
   // load locale messages with dynamic import
@@ -35,7 +35,7 @@ const NUMBER_FORMATS = {
 export default (nuxtApp: any) => {
   const config = useRuntimeConfig()
   const i18n = createI18n({
-    locale: config.DEFAULT_LOCALE || 'en',
+    locale: config.DEFAULT_LOCALE || 'de',
     fallbackLocale: 'en',
     numberFormats: {
       en: NUMBER_FORMATS,
@@ -44,15 +44,15 @@ export default (nuxtApp: any) => {
     }
   })
 
+  // Load default locale
+  loadLocaleMessages(i18n, i18n.global.locale)
+
   nuxtApp.vueApp.use(i18n)
 
   nuxtApp.$router.beforeEach(async (to: any, _from: any, next: Function) => {
     // TODO: handle after change locale
     const paramsLocale = to.params.locale
-    // const isValidLocale = locale && i18n.global.availableLocales.some(
-    //   (availableLocale: string) => availableLocale === locale
-    // )
-
+  
     if (!AVAILABLE_LOCALES.includes(paramsLocale)) {
       return next(`/${i18n.global.locale}`)
     }

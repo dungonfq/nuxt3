@@ -20,16 +20,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from 'vue'
+import { defineComponent, computed, provide } from 'vue'
 import useUser from '~~/composables/useUser'
-// import LocaleSwitcher from '~/components/LocaleSwitcher.vue'
+import LocaleSwitcher from '~/components/LocaleSwitcher.vue'
 
 export default defineComponent({
 	layout: 'default',
-	// components: {
-	// 	LocaleSwitcher
-	// },
-	setup (props) {
+	components: {
+		LocaleSwitcher
+	},
+	setup () {
+		const { $router } = useNuxtApp()
+		provide('router', $router)
+
 		const { fetchUser } = useUser()
 		const user = computed(() => useUser().user.value )
 		return {
