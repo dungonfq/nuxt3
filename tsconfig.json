@@ -7,7 +7,6 @@
     "moduleResolution": "node",
     "types": [
       "nuxt-windicss",
-      "@intlify/nuxt3",
       "jest"
     ]
   }
