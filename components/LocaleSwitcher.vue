@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, inject } from 'vue'
 import useLocale from '~/composables/useLocale'
 import RsLink from '~/components/common/RsLink.vue'
 
@@ -23,14 +23,14 @@ export default defineComponent({
     RsLink
   },
   setup () {
+    const router = inject<any>('router')
     const { currentLocale, availableLocales } = useLocale()
-    const { $router } = useNuxtApp()
-    const { name, path } = $router.currentRoute.value
+    const { name, path } = router.currentRoute.value
 
     const getLocalePath = (locale: String) => {
       const hasLocale = availableLocales.some((loc: string) => path.startsWith(`/${loc}`))
       if (hasLocale) {
-        const newLocaleRoute = $router.resolve({ name, params: { locale } })
+        const newLocaleRoute = router.resolve({ name, params: { locale } })
         return newLocaleRoute.path
       } else {
         return `/${locale}${path}`

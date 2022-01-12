@@ -8,12 +8,25 @@ const i18n = createI18n({
   fallbackLocale: 'en',
 })
 
+const provide = {
+  router: {
+    currentRoute: {
+      value: {
+        name: 'index',
+        path: '/'
+      },
+      resolve: jest.fn(() => {})
+    }
+  }
+}
+
 const createWrapper = CreateWrapperFactory.init(LocaleSwitcher, {
   stubs: {
     NuxtLink: RouterLinkStub,
   },
   global: {
-    plugins: [i18n]
+    plugins: [i18n],
+    provide
   }
 }).withBasicSetup()
   .buildFactory()
