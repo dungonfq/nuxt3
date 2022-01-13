@@ -1,5 +1,4 @@
 import { ref, readonly } from 'vue'
-import { AVAILABLE_LOCALES } from '~/locales'
 import { useI18n } from 'vue-i18n'
 
 export default function() {
@@ -8,6 +7,6 @@ export default function() {
 
   return {
     currentLocale: readonly(currentLocale),
-    availableLocales: readonly(AVAILABLE_LOCALES)
+    availableLocales: readonly(i18n.availableLocales)
   }
 }
