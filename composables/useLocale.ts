@@ -1,5 +1,5 @@
 import { ref, readonly } from 'vue'
-import { AVAILABLE_LOCALES } from '~/services/constants'
+import { AVAILABLE_LOCALES } from '~/locales'
 import { useI18n } from 'vue-i18n'
 
 export default function() {
