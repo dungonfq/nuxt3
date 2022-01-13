@@ -1,6 +1,6 @@
 import { createI18n } from 'vue-i18n'
 import { nextTick } from 'vue'
-import { AVAILABLE_LOCALES } from '~/services/constants'
+import { I18N_COOKIE_NAME, AVAILABLE_LOCALES } from '~/services/constants'
 
 const loadLocaleMessages = async (i18n: any, locale: string) => {
   // load locale messages with dynamic import
@@ -34,8 +34,10 @@ const NUMBER_FORMATS = {
 
 export default (nuxtApp: any) => {
   const config = useRuntimeConfig()
+  const cookieLocale = useCookie(I18N_COOKIE_NAME)
+
   const i18n = createI18n({
-    locale: config.DEFAULT_LOCALE || 'de',
+    locale: cookieLocale.value || config.DEFAULT_LOCALE,
     fallbackLocale: 'en',
     numberFormats: {
       en: NUMBER_FORMATS,
@@ -52,17 +54,21 @@ export default (nuxtApp: any) => {
   nuxtApp.$router.beforeEach(async (to: any, _from: any, next: Function) => {
     // TODO: handle after change locale
     const paramsLocale = to.params.locale
+
+    if (!paramsLocale) return next()
   
     if (!AVAILABLE_LOCALES.includes(paramsLocale)) {
-      return next(`/${i18n.global.locale}`)
+      const rawPath = to.fullPath.replace(`/${paramsLocale}`, '')
+      return next(`/${i18n.global.locale}${rawPath}`)
     }
 
     if (!i18n.global.availableLocales.includes(paramsLocale)) {
       await loadLocaleMessages(i18n, paramsLocale)
     }
-
+  
     setI18nLanguage(i18n, paramsLocale)
-    
+    cookieLocale.value = paramsLocale
+
     return next()
   })
 }
