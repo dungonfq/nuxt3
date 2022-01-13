@@ -1,6 +1,6 @@
 <template>
 	<div class="p-6">
-		<div class="text-xl text-green-500">{{ $t('booking.step.select_vehicle') }}</div>
+		<div class="text-xl text-green-500">{{ $t('home') }}</div>
 		<div class="text-xl text-red-500">Hello {{ user.name }}</div>
 		<div class="my-2">
 			<locale-switcher />

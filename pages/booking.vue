@@ -1,3 +1,3 @@
 <template>
-  <div>{{ $t('bookingSuccessPage.heading') }}</div>
+  <div>{{ $t('about') }}</div>
 </template>
