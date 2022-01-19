@@ -2,6 +2,9 @@
 	<div class="p-6">
 		<div class="text-xl text-green-500">{{ $t('home') }}</div>
 		<div class="text-xl text-red-500">Hello {{ user.name }}</div>
+		<div class="m-4">
+			<img src="/img/logo/footer-roadsurfer.svg" alt="Try to import logo Roadsurfer"/>
+		</div>
 		<div class="my-2">
 			<locale-switcher />
 		</div>

@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "preview": "nuxi preview",
     "start": "node .output/server/index.mjs",
     "test": "jest --verbose --coverage=false",
     "test-ci": "jest --verbose --coverage=true --coverageDirectory=coverage --coverageReporters=lcov",

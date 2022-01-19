@@ -1,5 +1,4 @@
 import { createI18n } from 'vue-i18n'
-import { I18N_COOKIE_NAME } from '~/services/constants'
 import { localeMessages, AVAILABLE_LOCALES } from '~/locales'
 
 // const loadLocaleMessages = async (i18n: any, locale: string) => {
@@ -11,14 +10,6 @@ import { localeMessages, AVAILABLE_LOCALES } from '~/locales'
 
 //   return nextTick()
 // }
-
-export function setI18nLanguage(i18n: any, locale: string) {
-  if (i18n.mode === 'legacy') {
-    i18n.global.locale = locale
-  } else {
-    i18n.global.locale.value = locale
-  }
-}
 
 const NUMBER_FORMATS = {
   currency: {
@@ -34,10 +25,12 @@ const NUMBER_FORMATS = {
 
 export default (nuxtApp: any) => {
   const config = useRuntimeConfig()
-  const cookieLocale = useCookie(I18N_COOKIE_NAME)
+  const defaultLocale = config.DEFAULT_LOCALE
 
   const i18n = createI18n({
-    locale: cookieLocale.value || config.DEFAULT_LOCALE,
+    legacy: false,
+    globalInjection: true,
+    locale: defaultLocale,
     fallbackLocale: 'en',
     messages: localeMessages,
     numberFormats: {
@@ -48,11 +41,11 @@ export default (nuxtApp: any) => {
   })
 
   // Load default locale
-  // loadLocaleMessages(i18n, i18n.global.locale)
+  // loadLocaleMessages(i18n, defaultLocale)
 
   nuxtApp.vueApp.use(i18n)
 
-  nuxtApp.$router.beforeEach(async (to: any, _from: any, next: Function) => {
+  nuxtApp.$router.beforeResolve(async (to: any, _from: any, next: Function) => {
     // TODO: handle after change locale
     const paramsLocale = to.params.locale
 
@@ -60,16 +53,16 @@ export default (nuxtApp: any) => {
   
     if (!AVAILABLE_LOCALES.includes(paramsLocale)) {
       const rawPath = to.fullPath.replace(`/${paramsLocale}`, '')
-      return next(`/${i18n.global.locale}${rawPath}`)
+      return next(`/${defaultLocale}${rawPath}`)
     }
 
     // if (!i18n.global.availableLocales.includes(paramsLocale)) {
     //   await loadLocaleMessages(i18n, paramsLocale)
     // }
-  
-    setI18nLanguage(i18n, paramsLocale)
-    cookieLocale.value = paramsLocale
 
+    const { $i18n } = nuxtApp.vueApp.config.globalProperties
+    $i18n.locale = paramsLocale
     return next()
   })
+  nuxtApp.vueApp.provide('$router', nuxtApp.$router)
 }
